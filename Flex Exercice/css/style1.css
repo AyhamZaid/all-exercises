@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    width:100%;
+}
+.orange{
+    padding:10%;
+    background-color: orange;
+}
+.pink{
+    padding:10%;
+    background-color: pink;
+}
+.brown{
+    padding:10%;
+    background-color: chocolate;
+}
+.olive{
+    padding:10%;
+    background-color: olive;
+}

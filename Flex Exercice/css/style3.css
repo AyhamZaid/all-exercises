@@ -1,0 +1,42 @@
+body{
+    background-color: crimson;
+    
+    box-sizing: border-box;
+    line-height:145%;
+
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%;
+    padding-left: 30%;
+
+
+}
+.card {
+    flex:0 0 200px;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #111;
+    box-shadow: 2px 2px 6px 0px ;
+    background-color: white;
+    flex-direction: column;
+    width: 350px;
+
+}
+
+
+.card img {
+    max-width: 100%;
+}
+
+
+.card .text {
+    padding: 0 20px 20px;
+}
+
+a{
+    color: crimson;
+}
+

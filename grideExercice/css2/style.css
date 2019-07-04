@@ -1,0 +1,41 @@
+body{
+
+}
+.box{
+    display: grid;
+    grid-template-columns:repeat(2 ,1fr);
+    grid-auto-rows:540%;
+
+
+}
+
+div{
+
+    text-align: center;
+    color: white;
+
+
+}
+
+.box > div{
+    padding-top:30px;
+    text-align: center;
+    color: white;
+}
+.lightgreen{
+    background-color: aqua;
+    color: white;
+}
+
+.yellow{
+    background-color: yellow;
+
+}
+
+.gray {
+    background-color: gray;
+}
+.blue{
+    background-color: blue;
+
+}
